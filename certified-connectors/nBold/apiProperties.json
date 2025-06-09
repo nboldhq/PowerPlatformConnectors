@@ -16,39 +16,23 @@
             "IsOnbehalfofLoginSupported": true
           },
           "customParameters": {
-            "loginUri": {
-              "value": "https://login.microsoftonline.com"
-            },
-            "tenantId": {
-              "value": "common"
-            },
-            "resourceUri": {
-              "value": "https://graph.microsoft.com"
-            },
-            "enableOnbehalfOfLogin": {
-              "value": "false"
-            }
+            "loginUri": { "value": "https://login.microsoftonline.com" },
+            "tenantId": { "value": "common" },
+            "resourceUri": { "value": "https://graph.microsoft.com" },
+            "enableOnbehalfOfLogin": { "value": "false" }
           }
         },
         "uiDefinition": {
           "displayName": "OAuth Connection",
           "description": "OAuth Connection",
-          "constraints": {
-            "required": "true",
-            "hidden": "false"
-          }
+          "constraints": { "required": "true", "hidden": "false" }
         }
       },
       "token:TenantId": {
         "type": "string",
-        "metadata": {
-          "sourceType": "AzureActiveDirectoryTenant"
-        },
+        "metadata": { "sourceType": "AzureActiveDirectoryTenant" },
         "uiDefinition": {
-          "constraints": {
-            "required": "false",
-            "hidden": "true"
-          }
+          "constraints": { "required": "false", "hidden": "true" }
         }
       }
     },
